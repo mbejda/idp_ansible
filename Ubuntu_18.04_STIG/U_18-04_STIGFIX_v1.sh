@@ -267,7 +267,6 @@ function v100561 {
     fi
 }
 function v100563 {
-    # passwd -l root
     echo Complete | tee -a $remFile
 }
 function v100565 {
@@ -407,7 +406,6 @@ function v100595 {
     echo Complete | tee -a $remFile
 }
 function v100597 {
-    # sed -i -e '/\(nopasswd\|\!authenticate\)/I s/^/\#/' /etc/sudoers /etc/sudoers.d/*
 }
 function v100599 {
     function a {
